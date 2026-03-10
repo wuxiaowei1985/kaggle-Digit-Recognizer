@@ -1,10 +1,15 @@
 # 数据集（通常很大，且 Kaggle 上已有）
 /data/
 
-# 模型权重文件（二进制大文件，不适合 Git 管理）
-/run/savemodel/best_model.pth
-/run/savemodel/submission.csv
-/weights/
+# 忽略 run 文件夹内的具体文件（但保留文件夹）
+/run/savemodel/*
+/run/submission/*
+!/run/savemodel/.gitkeep
+!/run/submission/.gitkeep
+
+# 忽略 weights 文件夹内的所有文件，但保留文件夹
+/weights/*
+!/weights/.gitkeep
 
 # PyCharm 项目配置（每个人的本地配置不同）
 .idea/
