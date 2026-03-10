@@ -2,8 +2,8 @@
 /data/
 
 # 模型权重文件（二进制大文件，不适合 Git 管理）
-/run/savemodel/
-/run/best_model.pth
+/run/savemodel/best_model.pth
+/run/savemodel/submission.csv
 /weights/
 
 # PyCharm 项目配置（每个人的本地配置不同）
