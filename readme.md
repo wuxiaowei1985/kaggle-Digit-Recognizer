@@ -1,0 +1,6 @@
+- 数据集来自kaggle的[Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer)                       <!--数据集放在项目“data/”中-->
+- 文件夹weights内含预训练权重（目前暂时未更新）
+- 请先下载requirements.txt中的配置文件
+- 运行主程序main.py
+	- `main_train()`          <!--训练数据集-->
+	- `main_pred()`            <!--对测试集进行预测-->

@@ -1,0 +1,11 @@
+numpy
+pandas
+torch
+torch.nn
+torch.optim
+torch.utils.data
+torch.nn.functional
+torchvision.transforms
+matplotlib.pyplot
+os
+tqdm
